@@ -30,22 +30,23 @@ body{
     justify-content: center;
     align-items: center;
     gap: 10px;
+    font-size: 18px;
 }
 
 .flex-link-cont a{
-    color:#f9faf8;
+    color: #e5e7eb;
     text-decoration: none;
 }
 
 .hero-text{
     display: flex;
-    margin: 100px 0px;
-    justify-content: center;
-    align-items: center;
     flex-direction: row;
+    margin: 100px 0px;
+    justify-content:center;
+    align-items: center;
 }
 
-.text-top{
+.text-flex{
     flex: 1;
 }
 
@@ -53,6 +54,7 @@ body{
     font-size: 48px;
     font-weight: bolder;
     padding-right: 300px;
+    color: #f9faf8;
 }
 
 .seccond-text{
@@ -69,7 +71,17 @@ body{
     font-weight: bold;
 }
 
-.image-text{
+.image-flex{
     border: 2px solid black;
     flex: 1;
+    background-color: rgb(162, 160, 160);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100;
+}
+
+.random-info{
+    padding: 0 100px;
 }
